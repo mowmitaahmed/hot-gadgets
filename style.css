@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color: #FFA20D;
+    font-weight: bold;
+}
+/* NAV */
+.navbar-nav li a{
+    line-height: 27px;
+}
+.nav-link{
+    color: #9E9E9E;
+}
+/* CAROUSEL */
+header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    padding: 40px 0px;
+}
+.carousel-item h1{
+    font-weight: 600;
+}
+.carousel-item p{
+    padding: 20px 0;
+}
+.price{
+    color: #FF136F;
+}
+.buy_now_button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 9px 25px;
+}
+.buy_now_button i{
+    font-size: 15px;
+    padding-left: 8px;
+}
+.carousel-indicators > li{
+    width: 17px;
+    height: 10px;
+    background-color: #CECECE;
+    border: 0px solid;
+    border-radius: 6px;
+    opacity: 1;
+}
+.carousel-indicators li.active{
+    background-image: linear-gradient(to right, #FFB328, #FFD019);
+    width: 45px;
+    height: 10px;
+    border-radius: 6px;
+    border: 0px solid;
+}
+
+/* SMARTPHONE */
+.card-deck{
+    margin-top: 40px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px 5px #f6f6f6;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+.card h5, h3{
+    font-weight: 600;
+}
+
+/* CATAGORIES */
+.categories{
+    padding-top: 60px;
+}
+.categories_right img{
+    width: 100%;
+    height: auto;
+}
+.categories_left img{
+    width: 175px;
+    border: none;
+    box-shadow: 5px 5px 10px 10px #f4f4f4;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 25px;
+}
+#categories h3{
+    position: relative;
+}
+#categories h3::after{
+    content: "";
+    background-image: linear-gradient(to right, #FFC41F, #FF9C35);
+    width: 11%;
+    height: 9px;
+    border-radius: 6px;
+    border: 0px solid;
+    position: absolute;
+    left: 45%;
+    bottom: -50%;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
